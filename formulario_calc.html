@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/bootstrap-theme.css" />
+		<title>Calculadora com Javascript</title>
+		<script src="validacao.js"></script>
+		<style type="text/css">
+			.msg-erro {
+				color: red;
+			}
+        </style>
+        
+	</head>
+	<body class="container">
+		<h1 class="text-center">Calculadora em JS</h1>
+		<form class="form" name="formSignUp" action="" id="form">
+			<div class="bloco1">
+				<span>Introduza os numeros:</span><br>
+				<span>Número 1:</span><input type="text" size="6" id="n1" placeholder="número 1"><br>
+				<span>Número 2:</span><input type="text" size="6"  id="n2" placeholder="número 2"><br><br>
+				<input type="button" value="+" onClick="calc(this)">
+				<input type="button" value="-" onClick="calc(this)">
+				<input type="button" value="*" onClick="calc(this)">
+				<input type="button" value="/" onClick="calc(this)">
+				<br><br>
+				<input type="button" value="Limpar" onClick="limpar()"/>
+			 </div>
+		</form>
+	</body>
+</html>
